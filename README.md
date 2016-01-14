@@ -42,5 +42,6 @@ lien.php : page d'affichage des liens<br>
 ajout.php : page d'ajout de lien<br>
 config.php : Fichier configuration accès à la base de donnée
 
+/css/ : dossier des style CSS (NB: y déposer le fichier style.css)
 /img/ : dossier d'image (logos...)<br>
 /img/ico/ : icones pour les catégorie<br>
