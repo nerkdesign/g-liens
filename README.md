@@ -5,41 +5,41 @@ Gestionnaire perso de liens
 
 ##Creation des tables
 
-CREATE TABLE IF NOT EXISTS `categorie` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `nom` text NOT NULL,
-  `img` text NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+CREATE TABLE IF NOT EXISTS `categorie` (<br>
+  `ID` int(11) NOT NULL AUTO_INCREMENT,<br>
+  `nom` text NOT NULL,<br>
+  `img` text NOT NULL,<br>
+  PRIMARY KEY (`ID`)<br>
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;<br>
 
 
-CREATE TABLE IF NOT EXISTS `lien` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
-  `titre` text NOT NULL,
-  `lien` text NOT NULL,
-  `description` text NOT NULL,
-  `categorie` int(11) NOT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=74 ;
+CREATE TABLE IF NOT EXISTS `lien` (<br>
+  `ID` int(11) NOT NULL AUTO_INCREMENT,<br>
+  `titre` text NOT NULL,<br>
+  `lien` text NOT NULL,<br>
+  `description` text NOT NULL,<br>
+  `categorie` int(11) NOT NULL,<br>
+  PRIMARY KEY (`ID`)<br>
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=74 ;<br>
 
 ##Explication des tables 
 
-###Catégorie :
-ID : Identifiant de la catégorie (automatique)
-nom : Nom de la catégorie
-img : Nom de l'image (les icones doivent etre posé dans /img/ico/)
+###Catégorie :<br>
+ID : Identifiant de la catégorie (automatique)<br>
+nom : Nom de la catégorie<br>
+img : Nom de l'image (les icones doivent etre posé dans /img/ico/)<br>
 
 ###Lien :
-ID : Identifiant du lien
-titre : Titre du lien
-lien : Url du lien
-description : Description du lien
-categorie : Identificant de la catégorie
+ID : Identifiant du lien<br>
+titre : Titre du lien<br>
+lien : Url du lien<br>
+description : Description du lien<br>
+categorie : Identificant de la catégorie<br>
 
 #Architecture Serveur WEB
 
-lien.php : page d'affichage des liens
-ajout.php : page d'ajout de lien
+lien.php : page d'affichage des liens<br>
+ajout.php : page d'ajout de lien<br>
 
-/img/ : dossier d'image (logos...)
-/img/ico/ : icones pour les catégorie
+/img/ : dossier d'image (logos...)<br>
+/img/ico/ : icones pour les catégorie<br>
