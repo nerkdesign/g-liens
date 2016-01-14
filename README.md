@@ -41,6 +41,7 @@ categorie : Identificant de la catégorie<br>
 lien.php : page d'affichage des liens<br>
 ajout.php : page d'ajout de lien<br>
 config.php : Fichier configuration accès à la base de donnée
+style.css : fichier CSS à poser dans ./css/
 
 /css/ : dossier des style CSS (NB: y déposer le fichier style.css)
 /img/ : dossier d'image (logos...)<br>
