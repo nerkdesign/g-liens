@@ -1,0 +1,70 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Dosis';
+        vertical-align:middle;
+}
+
+input[type=text] {
+    width: 300px;
+    background-color: #D8D8D8;
+        border:none;
+}
+input[type=submit] {
+    width: 100px;
+    background-color: #D8D8D8;
+}
+input[type=password] {
+    width: 300px;
+    background-color: #D8D8D8;
+        border:none;
+}
+/* h1 tag style */
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 140%;
+}
+
+#outer-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* footer CSS Style Rule */
+#header {
+    width: 100%;
+    height: 150px;
+}
+
+/* footer CSS Style Rule */
+#footer {
+    width: 100%;
+}
+
+
+#content-container {
+    width: 75%;
+    height: 400px;
+    margin: 2px 0px 2px 0px;
+    float: left;
+}
+
+#left-nav {
+    width: 20%;
+    height: 400px;
+    margin: 2px 2px 2px 0px;
+    float: left;
+}
+
+#top-Nav {
+    width: 100%;
+    margin: 2px 0px 0px 0px;
+}
+
+input[type=text] {
+        -webkit-border-radius: 7px;
+        -moz-border-radius: 7px;
+        border-radius: 7px;
+        font-size: 15px;
+}
