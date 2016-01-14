@@ -40,6 +40,7 @@ categorie : Identificant de la catégorie<br>
 
 lien.php : page d'affichage des liens<br>
 ajout.php : page d'ajout de lien<br>
+config.php : Fichier configuration accès à la base de donnée
 
 /img/ : dossier d'image (logos...)<br>
 /img/ico/ : icones pour les catégorie<br>
