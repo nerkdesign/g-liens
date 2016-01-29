@@ -13,9 +13,11 @@
         $titre=$_POST['titre'];
         $url=$_POST['url'];
         $description=$_POST['description'];
+        if (!empty($url) && !empty($choix) && !empty($titre)){
         echo "</center>";
         $query = "INSERT INTO lien(ID,titre,lien,description,categorie) VALUES( NULL,'".$titre."','".$url."','".$description."','".$choix."')";
         $quo = mysql_query($query) or exit(mysql_error());
+        }
         }
 ?>
 </head>
