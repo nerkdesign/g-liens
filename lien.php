@@ -82,7 +82,7 @@ mysql_close ();
                 $sql3 = "SELECT * FROM `lien` WHERE categorie =".$cat;
                 $req3 = mysql_query($sql3) or die('Erreur SQL !<br />'.$sql3.'<br />'.mysql_error());
                 while ($data3 = mysql_fetch_array($req3)) {
-                        echo '<a href="'.$data3['lien'].'" target="_blank" >'.$data3['titre'].'</a><br>'.$data3['description'].'<br><br>';
+                        echo '<img src="http://www.google.com/s2/favicons?domain='.$data3['lien'].'" /><a href="'.$data3['lien'].'" target="_blank" >'.$data3['titre'].'</a><br>'.$data3['description'].'<br><br>';
                 }
         }
 //END
