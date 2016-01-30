@@ -46,3 +46,5 @@ style.css : fichier CSS à poser dans ./css/
 /css/ : dossier des style CSS (NB: y déposer le fichier style.css)
 /img/ : dossier d'image (logos...)<br>
 /img/ico/ : icones pour les catégorie<br>
+
+V1.1 : Ajout de la récupération automatique des favicones, correction bug base de donnée  
